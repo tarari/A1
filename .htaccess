@@ -1,3 +1,4 @@
 RewriteEngine On
-
-RewriteRule ^(.+)$ $1 [NC]
+CheckCaseOnly On
+CheckSpelling On
+RewriteRule [QSA,L]
